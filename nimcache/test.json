@@ -1,0 +1,18 @@
+{"compile":[
+["/Users/lee12/nim_projects/deep_reversi/nimcache/test.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/lee12/nim_projects/deep_reversi/nimcache/test.o /Users/lee12/nim_projects/deep_reversi/nimcache/test.c"],
+["/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_system.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_system.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_system.c"],
+["/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_strutils.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_strutils.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_strutils.c"],
+["/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_parseutils.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_parseutils.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_parseutils.c"],
+["/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_math.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_math.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_math.c"],
+["/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_algorithm.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_algorithm.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_algorithm.c"]
+],
+"link":[
+"/Users/lee12/nim_projects/deep_reversi/nimcache/test.o",
+"/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_system.o",
+"/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_strutils.o",
+"/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_parseutils.o",
+"/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_math.o",
+"/Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_algorithm.o"
+],
+"linkcmd": "clang   -o /Users/lee12/nim_projects/deep_reversi/test  /Users/lee12/nim_projects/deep_reversi/nimcache/test.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_system.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_strutils.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_parseutils.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_math.o /Users/lee12/nim_projects/deep_reversi/nimcache/stdlib_algorithm.o  -lm   -ldl"
+}

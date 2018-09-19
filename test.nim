@@ -1,18 +1,7 @@
-type
-  Person = ref object of RootObj
-    name*: string
-    age: int
-
-  Student = ref object of Person
-    id: int
-
+import strutils
 var
-  student: Student
-  person: Person
-
-student = Student(name: "Anton", age: 5, id: 2)
-person = Person(name: "Jude", age: 20)
-student.id = 6
-student.name = "John"
-echo student[]
-echo person[]
+  a = 0b0000100010001100
+  b = 0b0100110110111110
+echo toBin(a and b, 64)
+echo toBin(a or b, 64)
+echo toBin(a xor b, 64)
