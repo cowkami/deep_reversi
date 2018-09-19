@@ -1,5 +1,5 @@
 {"compile":[
-["/Users/lee12/nim_projects/deep_reversi/nimcache/test.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/lee12/nim_projects/deep_reversi/nimcache/test.o /Users/lee12/nim_projects/deep_reversi/nimcache/test.c"]
+]
 ],
 "link":[
 "/Users/lee12/nim_projects/deep_reversi/nimcache/test.o",
